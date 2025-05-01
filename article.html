@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksharavaibhavam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Malayalam:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="lolo.jpg" type="image/x-icon">
+    <style>
+        body {
+            scroll-behavior: smooth;
+            font-family: 'Noto Serif Malayalam', serif;
+            background-image: url('bg.jpg'); /* Set the background image for the entire page */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        header {
+            background-image: url('he.jpg'); /* Set the same background image for the header */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        #home {
+            background-image: url('bg.jpg'); /* Set the background image for the Welcome section */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        #articles {
+            background-image: url('bg.jpg'); /* Set the background image for the Articles section */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        #multimedia {
+            background-image: url('bg.jpg'); /* Set the background image for the Multimedia section */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+        .hover-scale {
+            transition: transform 0.3s;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="text-white sticky top-0 z-10">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">അക്ഷരനാദം</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:underline">Home</a></li>
+                <li><a href="#articles" class="hover:underline">Articles</a></li>
+                <li><a href="#stories" class="hover:underline">Stories</a></li>
+                <li><a href="#multimedia" class="hover:underline">Multimedia</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-white py-20 fade-in">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">Welcome to അക്ഷരവൈഭവം</h2>
+            <p class="text-lg mb-6">A sanctuary for articles, stories, poems, and multimedia creations that inspire and connect.</p>
+            <a href="https://aripuravanparakkal.github.io/my-works/" class="bg-white text-teal-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200">Explore Our Works</a>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Articles</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <img src="3baaa6b2e2168b55def299a1d43b0e62.jpg" alt="Article 1" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Negligance of awarness</h3>
+                    <p class="text-gray-600">A drug is a chemical substance that, when administered to a living organism, produces a biological effect.</p>
+                    <a href="http://127.0.0.1:5500/drugs.html" class="text-teal-600 hover:underline mt-2 inline-block">Read More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale" >
+                    <img src="kashmir.jpg" alt="Article 2" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2"> കശ്മീരിലെ ബീഗരാക്രമണം </h3>
+                    <p class="text-gray-600">Pahalgam terror attack LIVE: J&K Assembly moves resolution denouncing the attack; Omar Abdullah says he failed as CM.</p>
+                    <a href="https://www.thehindu.com/news/national/pahalgam-terror-attack-live-updates-jammu-kashmir-pakistan-loc-tension-april-28-2025/article69499872.ece" class="text-teal-600 hover:underline mt-2 inline-block">Read More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <img src="b096b0cfc61fa606f4cf8177874dcdcd.jpg" alt="Article 3" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Waqf not property of government</h3>
+                    <p class="text-gray-600">Waqf refers to properties that have been donated for religious or charitable purposes under Islamic law. Once donated, a mutawalli manages the property, and the ownership is transferred and detained by Allah.</p>
+                    <a href="arttt.pdf" class="text-teal-600 hover:underline mt-2 inline-block">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section id="stories" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Stories & Poems</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold mb-2">A classical stories</h3>
+                    <p class="text-gray-600">A short story about (മറഞ്ഞുപോയ ചിരി) (മഴയില്ലാത്ത ദിവസം)</p>
+                    <a href="story.pdf" class="text-teal-600 hover:underline mt-2 inline-block">Read Story</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <h3 class="text-xl font-semibold mb-2">ഫലസ്തീൻ, ഞങ്ങളോടൊപ്പം</h3>
+                    <p class="text-gray-600">A Malayalam poem capturing the situation of palestine peoples dreams.</p>
+                    <a href="phal.pdf" class="text-teal-600 hover:underline mt-2 inline-block">Read Poem</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section id="multimedia" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Multimedia Creations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Multimedia Item 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <img src="blog-image.png" alt="Israeli strikes intensify" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Israeli strikes intensify</h3>
+                    <p class="text-gray-600">A motivational talk to ignite passion and purpose.</p>
+                    <a href="https://youtu.be/6UTe9_lAhaM?si=dn91RBbb4sV2Exi6" class="text-teal-600 hover:underline mt-2 inline-block">Watch Now</a>
+                </div>
+                <!-- Multimedia Item 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <img src="cartoon.jpeg" alt="Cartoon Making" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Cartoon Making</h3>
+                    <p class="text-gray-600">Free Software for cartoon editing</p>
+                    <a href="https://www.youtube.com/watch?v=60ssnDrjJr0" class="text-teal-600 hover:underline mt-2 inline-block">Watch Now</a>
+                </div>
+                <!-- Multimedia Item 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md hover-scale">
+                    <img src="films-and-short-films-production-services-500x500.webp" alt="Creative Short Film" class="w-full h-48 object-cover rounded mb-4">
+                    <h3 class="text-xl font-semibold mb-2">Creative Short Film</h3>
+                    <p class="text-gray-600">A visual story exploring human emotions.</p>
+                    <a href="https://www.youtube.com/@JUNAIZ_0019" class="text-teal-600 hover:underline mt-2 inline-block">Watch Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-4">
+            <!-- Section Title -->
+            <h2 class="text-3xl font-bold text-center mb-8">Connect With Us</h2>
+
+            <!-- Form Container -->
+            <div class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <!-- Form -->
+                    <form id="submit-Form" method="post" action="https://script.google.com/macros/s/AKfycbxKweguLep2kYGXQBIVjGX1hAvDNNJBGo3b6C9yjQcNL1cNZ6ybPAprwfZWtI3QOJoXTQ/exec" onsubmit="showConfirmation(event)">
+                        <!-- Name Field -->
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="name" placeholder="Your Name" class="w-full p-2 border rounded mb-4" required>
+
+                        <!-- Email Field -->
+                        <label for="lname">Email</label>
+                        <input type="email" id="lname" name="email" placeholder="Your Email" class="w-full p-2 border rounded mb-4" required>
+
+                        <!-- Country Dropdown -->
+                        <label for="country">Country</label>
+                        <select name="color" id="country" class="w-full p-2 border rounded mb-4" required>
+                            <option value="australia">Australia</option>
+                            <option value="India">India</option>
+                            <option value="usa">USA</option>
+                        </select>
+
+                        <!-- Message Field -->
+                        <label for="subject">Message</label>
+                        <textarea name="message" id="subject" placeholder="Write something..." style="height:100px" class="w-full p-2 border rounded mb-4" required></textarea>
+
+                        <!-- Submit Button -->
+                        <input type="submit" value="Submit" class="w-full bg-teal-600 text-white p-2 rounded hover:bg-teal-700 cursor-pointer">
+                    </form>
+                </div>
+
+                <!-- Confirmation Message -->
+                <div id="confirmationMessage" class="hidden text-center mt-6 bg-green-100 text-green-800 p-4 rounded">
+                    <p>Congratulations! Your message has been sent.</p>
+                </div>
+
+                <!-- Social Media Link -->
+                <div class="text-center mt-6">
+                    <a href="https://instagram.com/rishan_r4boys" target="_blank" class="text-teal-600 hover:underline" style="color: rgb(255, 0, 140);">Follow us on Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showConfirmation(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Show the confirmation message
+            const confirmationMessage = document.getElementById('confirmationMessage');
+            confirmationMessage.classList.remove('hidden');
+
+            // Optionally, reset the form
+            document.getElementById('submit-Form').reset();
+
+            // You can also add a timeout to hide the message after a few seconds
+            setTimeout(() => {
+                confirmationMessage.classList.add('hidden');
+            }, 5000); // Hide after 5 seconds
+        }
+    </script>
+</body>
+</html>
